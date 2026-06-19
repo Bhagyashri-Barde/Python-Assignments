@@ -1,4 +1,4 @@
-# Program - To dispaly 
+# Program - To dispaly
 # 1. Value
 # 2. Type
 # 3. Memory Address
