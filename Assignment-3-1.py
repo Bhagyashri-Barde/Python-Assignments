@@ -1,6 +1,6 @@
 # Program To Display
 # 1) Data Type
-# 2) Memoey Address
+# 2) Memory Address
 # 3) Size in bytes of a veriable enterd by the user
 
 from sys import getsizeof
