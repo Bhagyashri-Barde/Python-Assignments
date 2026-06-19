@@ -2,7 +2,7 @@
 # 1. Value
 # 2. Type
 # 3. Memory Address
-#for a veriable using Appropriate built-in functions
+# for a veriable using Appropriate built-in functions
 
 student_id = 10
 student_name = "Devansh"
