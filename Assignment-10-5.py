@@ -7,8 +7,6 @@ print("-------------------------------------")
 
 def Even(No):
 
-    print("Odd Numbers Are : ")
-
     for i in range(1,No+1):
 
         if( i % 2 != 0 ):
@@ -17,6 +15,8 @@ def Even(No):
 def main():
 
     Value = int(input("Enter Your Number : "))
+    
+    print("Odd Numbers From 1 To",Value)
 
     Even(Value)
 
