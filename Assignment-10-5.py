@@ -5,12 +5,15 @@ print("-------------------------------------")
 print("------------- Odd Numbers -----------")
 print("-------------------------------------")
 
-def Even(No):
+def ChkOdd(No):
+    oddList = []
 
     for i in range(1,No+1):
 
         if( i % 2 != 0 ):
-            print(i)
+            oddList.append(i)
+            
+    return oddList
 
 def main():
 
@@ -18,7 +21,10 @@ def main():
     
     print("Odd Numbers From 1 To",Value)
 
-    Even(Value)
+    Ret = ChkOdd(Value)
+
+    for i in Ret:
+        print(i)
 
 if __name__ == "__main__":
     main()
