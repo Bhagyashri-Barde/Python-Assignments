@@ -1,9 +1,10 @@
 # Program - Accept Length and Width of Rectangle and Prints Area
 
+from Area import Rectangle
+
 print("-----------------------------")
 print("----- Area of Rectangle -----")
 print("-----------------------------")
-from Area import Rectangle
 
 def main():
     Length = int(input("Enter Length : "))
