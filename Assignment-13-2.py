@@ -1,9 +1,10 @@
 # Program - Accept Radius of Circle and Prints Area
 
+from Area import Circle  
+
 print("-----------------------------")
 print("----- Area of Circle -----")
 print("-----------------------------")
-from Area import Circle
 
 def main():
     Radius = int(input("Enter Radius : "))
