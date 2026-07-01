@@ -5,12 +5,16 @@ print("-------------------------------------")
 print("------------ Even Numbers -----------")
 print("-------------------------------------")
 
-def Even(No):
+def ChkEven(No):
+    evenList = []
     
     for i in range(1,No+1):
 
         if( i % 2 == 0 ):
-            print(i)
+             evenList.append(i)
+
+    return evenList
+            
 
 def main():
 
@@ -18,7 +22,10 @@ def main():
 
     print("Even Numbers From 1 To",Value)
 
-    Even(Value)
+    Ret = ChkEven(Value)
+
+    for i in Ret:
+        print(i)
 
 if __name__ == "__main__":
     main()
