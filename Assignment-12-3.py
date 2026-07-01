@@ -1,13 +1,14 @@
 # Program - Accept 2 numbers and Prints
 # 1) Addition          2) Subtarction 
 # 3) Multiplication    4) Division
-print("-----------------------------------")
-print("------ Arithmatic Operations ------")
-print("-----------------------------------")
 
 from ArithmaticOperations import Addition
 from ArithmaticOperations import Subtraction
 from ArithmaticOperations import Multiplication,Division
+
+print("-----------------------------------")
+print("------ Arithmatic Operations ------")
+print("-----------------------------------")
 
 def main():
     Value1 = int(input("Enter First Number : "))
