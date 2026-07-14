@@ -78,8 +78,9 @@ class Numbers:
                 Sum = Sum + i
 
         return Sum
-
+print()
 No1 = int(input("Enter Your Number : "))  
+print()
 
 nObj1 = Numbers(No1)
 
@@ -108,7 +109,11 @@ total = nObj1.SumFactors()
 
 print(f"Sum Of Factors of {No1} is : {total}")
 
-No2 = int(input("Enter Your Number : ")) 
+print()
+
+No2 = int(input("Enter Your Number :")) 
+
+print()
 
 nObj2 = Numbers(No2)
 
@@ -138,7 +143,11 @@ total = nObj2.SumFactors()
 
 print(f"Sum Of Factors of {No2} is : {total}")
 
+print()
+
 No3 = int(input("Enter Your Number : ")) 
+
+print()
 
 nObj3 = Numbers(No3)
 
@@ -159,7 +168,7 @@ if isPerfect:
     print(f"{No3} is Perfect Number")
 
 else:
-    
+
     print(f"{No3} is Not Perfect Number")
 
 nObj3.Factors()
