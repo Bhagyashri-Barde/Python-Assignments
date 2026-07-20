@@ -1,16 +1,25 @@
 # Count Words in a File
 # Program - Accepts a file from the user and 
 # count total number of words in that file
+
 import sys
+import os
 
 def main():
 
-     try:
+    if(len(sys.argv) == 2):
 
         wCount = 0
-
         fName = sys.argv[1]
 
+        Ret = os.path.exists(fName)
+        
+        if(Ret == False):
+
+            print("There is no such File with name ",fName)
+            
+            return
+        
         fObj = open(fName,"r")
 
         with fObj as file:
@@ -29,13 +38,9 @@ def main():
 
         print(f"Total number of Words in File : {wCount}")
         
-     except IndexError as fobj: 
- 
-            print("list index out of range")
-
-     except FileNotFoundError as fobj:
-
-        print("File not found...")
+    else:
+        
+        print("Invalid Number of Arguments")
 
 if __name__ == "__main__":
     main()

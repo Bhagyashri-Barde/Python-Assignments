@@ -1,0 +1,4 @@
+I am learning File IO.
+This is my first program.
+File IO is very interesting to learn.
+We perform different operations on files using different methods.

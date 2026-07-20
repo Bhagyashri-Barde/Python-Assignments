@@ -3,15 +3,25 @@
 # 1. First file is Existing file
 # 2. Second file in new file
 # copy all content from the first file into second file
+
 import sys
+import os
 
 def main():
 
-     try:
+     if(len(sys.argv) == 3):
         
         fName1 = sys.argv[1]
 
         fName2 = sys.argv[2]
+
+        Ret = os.path.exists(fName1)
+
+        if(Ret == False):
+            
+            print("There is no such File with name ",fName1)
+            
+            return
 
         fObj1 = open(fName1,"r")
 
@@ -21,18 +31,14 @@ def main():
 
         fObj2.write(file1_Data)
 
-        print("File Copied Successfully...")
+        print("File copied successfully")
 
         fObj1.close()
         fObj2.close()
 
-     except IndexError as fobj: 
- 
-            print("list index out of range")
-
-     except FileNotFoundError as fobj:
-
-        print("File not found...")
+     else:
+        
+        print("Invalid Number of Arguments")
 
 if __name__ == "__main__":
     main()

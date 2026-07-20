@@ -3,13 +3,22 @@
 # checks whether the word is present in the file or not
 
 import sys
+import os
 
 def main():
 
-     try:
+    if(len(sys.argv) == 2):
 
         fName = sys.argv[1]
 
+        Ret = os.path.exists(fName)
+   
+        if(Ret == False):
+            
+            print("There is no such File with name ",fName)
+            
+            return
+        
         fObj = open(fName,"r")
 
         Sword = input("Enter Word for search : ")
@@ -34,13 +43,8 @@ def main():
             else:
                 print(f"{Sword} is not present in File {fObj.name}")
 
-     except IndexError as fobj: 
- 
-            print("list index out of range")
-            
-     except FileNotFoundError as fobj:
-
-        print("File not found...")
-
+    else:
+        
+        print("Invalid Number of Arguments")
 if __name__ == "__main__":
     main()
