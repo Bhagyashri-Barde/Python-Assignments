@@ -1,0 +1,24 @@
+------------------------------------------------------------
+File Automation Script 
+------------------------------------------------------------
+
+File Name : /Users/bhagyashri/Desktop/Python/Python-Assignments/Demo1.txt
+File Size in bytes : 75 bytes
+Date and Time : 26-07-2026 12:07:53 AM
+------------------------------------------------------------
+File Name : /Users/bhagyashri/Desktop/Python/Python-Assignments/Demo1.txt
+File Size in bytes : 75 bytes
+Date and Time : 26-08-2026 12:08:23 AM
+------------------------------------------------------------
+File Name : /Users/bhagyashri/Desktop/Python/Python-Assignments/Demo1.txt
+File Size in bytes : 77 bytes
+Date and Time : 26-08-2026 12:08:53 AM
+------------------------------------------------------------
+File Name : /Users/bhagyashri/Desktop/Python/Python-Assignments/Demo1.txt
+File Size in bytes : 112 bytes
+Date and Time : 26-09-2026 12:09:23 AM
+------------------------------------------------------------
+File Name : /Users/bhagyashri/Desktop/Python/Python-Assignments/Demo1.txt
+File Size in bytes : 102 bytes
+Date and Time : 26-09-2026 12:09:53 AM
+------------------------------------------------------------
