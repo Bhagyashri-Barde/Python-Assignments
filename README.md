@@ -17,7 +17,7 @@ This Python automation script periodically scans a directory, detects duplicate 
 - Exception handling
 - Modular Programming
 
-# Requirments
+# Requirements
 
 - Python 3.X
 - sys
@@ -33,7 +33,7 @@ This Python automation script periodically scans a directory, detects duplicate 
 - Internet connection for sending email
 - Email application connection or SMTP credentials
 
-# Project File
+# Project Files
 
 - config.py
 
@@ -54,11 +54,11 @@ Python-Assignments/
 
 # Commnad Line Options
 
-Required arguments
+Required arguments:
 
-- Directory Path : "C:\Users\Bhagyashri\TestFiles"
-- Time interval in minutes : 30
-- Reciver Email Address : abc.test@gmail.com
+- Absolute Directory Path
+- Time Interval (in minutes)
+- Receiver Email Address
 
 # Execution Command
 
