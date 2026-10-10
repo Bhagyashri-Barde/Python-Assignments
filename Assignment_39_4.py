@@ -77,11 +77,11 @@ def SplitDataset(X,Y):
 
     print("Dataset Spliting Activity Done")
 
-    print("X_Train : ",X_Train.shape)        #(15,5)     
-    print("X_Test : ",X_Test.shape)          #(15,5) 
+    print("X_Train : ",X_Train.shape)           
+    print("X_Test : ",X_Test.shape)          
 
-    print("Y_Train : ",Y_Train.shape)        #(15,) 
-    print("Y_Test : ",Y_Test.shape)          #(15,) 
+    print("Y_Train : ",Y_Train.shape)        
+    print("Y_Test : ",Y_Test.shape)          
 
     return X_Train,X_Test,Y_Train,Y_Test
 
